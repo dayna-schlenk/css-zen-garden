@@ -7,8 +7,9 @@
 .page-wrapper {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 25% repeat(2, 1fr), 25%;
+    grid-template-rows: 25%, 25%, repeat(2, 1fr), 25%;
     grid-template-areas:
+        "header header header header"
         "intro intro intro intro"
         "main main main sidebar"
         "main main main sidebar"
@@ -16,8 +17,13 @@
     gap: 1rem;
 }
 
-.intro, .main, .sidebar, footer {
+header, .intro, .main, .sidebar, footer {
     padding: 1rem 3rem;
+}
+
+header {
+    grid-area: header;
+    background-color: #6b86b8;
 }
 
 .intro {
@@ -61,7 +67,7 @@ footer {
 @media screen and (max-width: 700px) {
     .page-wrapper {
         grid-template-columns: 1fr;
-        grid-template-rows: 25% repeat(2, 1fr), 25%;
+        grid-template-rows: 25%, 25%, repeat(2, 1fr), 25%;
         grid-template-areas:
             "intro"
             "main"
