@@ -25,6 +25,10 @@ header, .intro, .main, .sidebar, footer {
     padding: 1rem 3rem;
 }
 
+h1, h2, h3 {
+    margin: 1rem 0;
+}
+
 header {
     grid-area: header;
     background-color: #6b86b8;
