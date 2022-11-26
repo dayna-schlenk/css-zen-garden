@@ -78,6 +78,13 @@ p {
 footer {
     background-color: #c46566;
     grid-area: footer;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+footer a {
+    margin-right: 2rem;
 }
 
 @media screen and (max-width: 700px) {
