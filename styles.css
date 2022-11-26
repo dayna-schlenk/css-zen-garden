@@ -21,6 +21,20 @@
     grid-area: intro;
 }
 
+.main-nav {
+    width: 100%;
+    position: relative;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+}
+
+.navbarOffsetMargin {
+    padding-top: 45px;
+}
+
 .nav-menu {
     background-color: #9EB7E5;
     list-style: none;
