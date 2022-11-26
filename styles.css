@@ -75,6 +75,14 @@ p {
     grid-area: sidebar;
 }
 
+.sidebar-list {
+    list-style: none;
+}
+
+.sidebar-list li {
+    margin-bottom: 0.5rem;
+}
+
 footer {
     background-color: #c46566;
     grid-area: footer;
