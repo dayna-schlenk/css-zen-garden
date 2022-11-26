@@ -1,15 +1,13 @@
 // const navbar = document.querySelector(".main-nav");
+// const sticky = navbar.offsetTop;
 
-// returns a DOMRect object providing info about the size of an element & its position relative to viewport
-// const navPosition = navbar.getBoundingClientRect().top;
+// window.addEventListener("scroll", function() {makeSticky()});
 
-// window.addEventListener("scroll", function() {
-//     // returns the number of px that document is currently scrolled vertically
-//     let scrollPosition = window.scrollY;
-
-//     if (scrollPosition > navPosition) {
+// // add the sticky class to the navbar when you reach its scroll position; remove the class when you leave the scroll position
+// function makeSticky() {
+//     if (window.pageYOffset >= sticky) {
 //         navbar.classList.add("sticky");
 //     } else {
 //         navbar.classList.remove("sticky");
 //     }
-// });
+// }
