@@ -21,6 +21,14 @@
     grid-area: intro;
 }
 
+.nav-menu {
+    background-color: #9EB7E5;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
 .main {
     background-color: #E09F3E;
     grid-area: main;
