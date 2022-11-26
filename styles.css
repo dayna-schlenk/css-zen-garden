@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-padding-top: 6rem;
+}
+
 .page-wrapper {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
