@@ -16,6 +16,10 @@
     gap: 1rem;
 }
 
+.intro, .main, .sidebar, footer {
+    padding: 1rem 3rem;
+}
+
 .intro {
     background-color: #335C67;
     grid-area: intro;
