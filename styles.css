@@ -41,7 +41,7 @@ h1, h2, h3 {
     margin: 1rem 0;
 }
 
-nav {
+.main-nav {
     width: 100%;
     max-width: 60rem;
 }
