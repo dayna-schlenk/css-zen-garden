@@ -5,14 +5,33 @@
     box-sizing: border-box;
 }
 
+.page-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas:
+        "intro intro intro intro"
+        "main main main sidebar"
+        "main main main sidebar"
+        "footer footer footer footer";
+}
+
 .intro {
     background-color: #335C67;
+    grid-area: intro;
 }
 
 .main {
     background-color: #E09F3E;
+    grid-area: main;
 }
 
 .sidebar {
     background-color: #9E2A2B;
+    grid-area: sidebar;
+}
+
+footer {
+    background-color: #c46566;
+    grid-area: footer;
 }
