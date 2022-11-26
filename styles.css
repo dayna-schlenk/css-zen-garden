@@ -36,13 +36,12 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    display: block;
 }
 
 .intro {
     background-color: #335C67;
     grid-area: intro;
-    margin-top: 5.5rem;
+    margin-top: 7.5rem;
 }
 
 .nav-menu {
@@ -51,6 +50,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    max-width: 70rem;
 }
 
 .main {
@@ -80,6 +80,6 @@ footer {
     }
 
     .intro {
-        margin-top: 6.5rem;
+        margin-top: 8.5rem;
     }
 }
