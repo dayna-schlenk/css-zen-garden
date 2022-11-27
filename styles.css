@@ -32,7 +32,7 @@ header, .intro, .main, .sidebar, footer {
 
 header {
     grid-area: header;
-    background-color: #6b86b8;
+    background-image: linear-gradient(135deg, #F97794 10%, #623AA2 100%);
     position: fixed;
     top: 0;
     left: 0;
@@ -49,6 +49,7 @@ h1, h2, h3 {
 
 h1 {
     font-size: 4rem;
+    color: #fff;
 }
 
 h2 {
@@ -74,6 +75,10 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+
+.nav-menu li a {
+    color: white;
 }
 
 p {
