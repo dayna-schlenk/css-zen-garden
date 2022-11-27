@@ -122,6 +122,7 @@ footer a {
             "main"
             "sidebar"
             "footer";
+        margin-bottom: 2rem;
     }
 
     .intro {
@@ -130,6 +131,10 @@ footer a {
 }
 
 @media screen and (min-width: 700px) {
+    .page-wrapper {
+        margin: 0 6rem 2rem;
+    }
+
     .sidebar {
         padding-left: 1.5rem;
     }
