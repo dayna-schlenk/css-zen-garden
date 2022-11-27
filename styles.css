@@ -45,6 +45,7 @@ header {
 h1, h2, h3 {
     margin: 1rem 0;
     font-family: 'Fugaz One', cursive;
+    color: #623AA2;
 }
 
 h1 {
