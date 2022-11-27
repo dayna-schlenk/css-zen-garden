@@ -5,7 +5,7 @@
 }
 
 html {
-    scroll-padding-top: 10rem;
+    scroll-padding-top: 12rem;
 }
 
 body {
@@ -80,7 +80,7 @@ p {
 .intro {
     /* background-color: #335C67; */
     grid-area: intro;
-    margin-top: 8rem;
+    margin-top: 12rem;
 }
 
 .main {
@@ -125,6 +125,16 @@ footer a {
     }
 
     .intro {
-        margin-top: 9.5rem;
+        margin-top: 17rem;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .sidebar {
+        padding-left: 1.5rem;
+    }
+
+    .sidebar-headers {
+        margin-top: 4rem;
     }
 }
