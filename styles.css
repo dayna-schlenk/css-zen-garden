@@ -8,6 +8,10 @@ html {
     scroll-padding-top: 7.5rem;
 }
 
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
 .page-wrapper {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
