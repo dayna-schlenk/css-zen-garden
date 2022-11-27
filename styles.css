@@ -52,7 +52,7 @@ h1, h2, h3 {
 }
 
 .nav-menu {
-    background-color: #9EB7E5;
+    /* background-color: #9EB7E5; */
     list-style: none;
     display: flex;
     flex-wrap: wrap;
@@ -65,18 +65,18 @@ p {
 }
 
 .intro {
-    background-color: #335C67;
+    /* background-color: #335C67; */
     grid-area: intro;
     margin-top: 8rem;
 }
 
 .main {
-    background-color: #E09F3E;
+    /* background-color: #E09F3E; */
     grid-area: main;
 }
 
 .sidebar {
-    background-color: #9E2A2B;
+    /* background-color: #9E2A2B; */
     grid-area: sidebar;
 }
 
@@ -89,7 +89,7 @@ p {
 }
 
 footer {
-    background-color: #c46566;
+    /* background-color: #c46566; */
     grid-area: footer;
     display: flex;
     justify-content: center;
