@@ -81,6 +81,7 @@ h3 {
 .nav-menu li a {
     color: white;
     text-decoration: none;
+    letter-spacing: 0.1rem;
 }
 
 .hover-underline-animation {
