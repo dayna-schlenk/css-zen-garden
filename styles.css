@@ -137,7 +137,7 @@ p {
 }
 
 .hyperlink-highlight:hover {
-    box-shadow: inset 100px 0 0 0 #F97794;
+    box-shadow: inset 200px 0 0 0 #F97794;
     color: white;
 }
 
