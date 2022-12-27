@@ -26,6 +26,8 @@ nav {
 
 .img1 {
     grid-area: img1;
+    /* background: url('images/donut-1.jpg') center center;
+    background-size: cover; */
 }
 
 .intro {
