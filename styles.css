@@ -70,6 +70,8 @@ nav {
 
 .img5 {
     grid-area: img5;
+    background: url('images/donut-5.jpg') center center;
+    background-size: cover;
 }
 
 .img6 {
