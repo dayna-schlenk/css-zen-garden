@@ -26,8 +26,8 @@ nav {
 
 .img1 {
     grid-area: img1;
-    /* background: url('images/donut-1.jpg') center center;
-    background-size: cover; */
+    background: url('images/donut-1.jpg') center center;
+    background-size: cover;
 }
 
 .intro {
@@ -36,6 +36,8 @@ nav {
 
 .img2 {
     grid-area: img2;
+    background: url('images/donut-2.jpg') center center;
+    background-size: cover;
 }
 
 .road-to-enlightenment {
