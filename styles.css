@@ -50,6 +50,8 @@ nav {
 
 .img3 {
     grid-area: img3;
+    background: url('images/donut-3.jpg') center center;
+    background-size: cover;
 }
 
 .img4 {
