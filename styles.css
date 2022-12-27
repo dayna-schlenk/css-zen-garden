@@ -76,6 +76,8 @@ nav {
 
 .img6 {
     grid-area: img6;
+    background: url('images/donut-6.jpg') center center;
+    background-size: cover;
 }
 
 .design {
