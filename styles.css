@@ -23,6 +23,13 @@ nav {
     grid-area: nav;
 }
 
+.flex-nav {
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 .text-block {
     padding: 4rem;
 }
