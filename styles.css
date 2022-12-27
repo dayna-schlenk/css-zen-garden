@@ -7,8 +7,7 @@
 .grid-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    /* grid-template-rows: 10%, repeat(6, 1fr), 25%; */
-    grid-template-rows: repeat(8, 25rem);
+    grid-template-rows: 5rem repeat(6, 40rem) 15rem;
     grid-template-areas:
         "nav img1"
         "intro img1"
