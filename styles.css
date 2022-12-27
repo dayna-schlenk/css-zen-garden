@@ -35,6 +35,7 @@ nav {
 
 .intro {
     grid-area: intro;
+    align-self: center;
 }
 
 .img2 {
@@ -45,10 +46,12 @@ nav {
 
 .road-to-enlightenment {
     grid-area: enlightenment;
+    align-self: center;
 }
 
 .about {
     grid-area: about;
+    align-self: center;
 }
 
 .img3 {
@@ -65,10 +68,12 @@ nav {
 
 .participation-benefits {
     grid-area: participation;
+    align-self: center;
 }
 
 .requirements {
     grid-area: reqs;
+    align-self: center;
 }
 
 .img5 {
@@ -85,6 +90,7 @@ nav {
 
 .design {
     grid-area: design;
+    align-self: center;
 }
 
 footer {
