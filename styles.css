@@ -8,4 +8,13 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 10%, repeat(6, 1fr), 25%;
+    grid-template-areas:
+        "nav img1"
+        "intro img1"
+        "img2 enlightenment"
+        "about img3"
+        "img4 participation"
+        "reqs img5"
+        "img6 design"
+        "footer footer";
 }
