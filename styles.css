@@ -102,4 +102,10 @@ nav {
 
 footer {
     grid-area: footer;
+    align-self: center;
+}
+
+.flex-footer {
+    display: flex;
+    justify-content: space-evenly;
 }
