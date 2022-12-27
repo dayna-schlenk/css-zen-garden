@@ -23,6 +23,10 @@ nav {
     grid-area: nav;
 }
 
+.text-block {
+    padding: 4rem;
+}
+
 .img1 {
     grid-area: img1;
     background: url('images/donut-1.jpg') center center;
