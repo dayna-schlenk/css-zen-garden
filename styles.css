@@ -56,6 +56,8 @@ nav {
 
 .img4 {
     grid-area: img4;
+    background: url('images/donut-4.jpg') center center;
+    background-size: cover;
 }
 
 .participation-benefits {
