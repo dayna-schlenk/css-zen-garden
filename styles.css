@@ -80,15 +80,17 @@ ul {
 }
 
 h1 {
-    color: #E58C8A;
+    /* color: #E58C8A; */
+    color: #d83d3b;
 }
 
 h2 {
-    color: #32A287;
+    color: #34acb4;
 }
 
 span {
-    color: #d83d3b;
+    /* color: #d83d3b; */
+    color: #E58C8A;
 }
 
 h1, .coffee-icon, .cookie-icon, h2 {
