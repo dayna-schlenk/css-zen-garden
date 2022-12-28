@@ -48,7 +48,7 @@ h2 {
     color: #32A287;
 }
 
-span, .coffee-icon {
+span {
     color: #d83d3b;
 }
 
@@ -67,8 +67,12 @@ span, .coffee-icon {
     align-self: center;
 }
 
-.cookie-icon {
+/* .cookie-icon {
     color: #FFF07C;
+} */
+
+.coffee-icon, .cookie-icon {
+    color: white;
 }
 
 .img2 {
