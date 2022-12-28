@@ -8,6 +8,7 @@ body {
     background-color: #EEC0C6;
     color: #484A47;
     font-family: 'Raleway', sans-serif;
+    letter-spacing: .1rem;
 }
 
 .grid-container {
