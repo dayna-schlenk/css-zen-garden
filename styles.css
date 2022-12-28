@@ -23,7 +23,7 @@ nav {
     grid-area: nav;
 }
 
-nav > ul {
+ul {
     list-style-type: none;
 }
 
