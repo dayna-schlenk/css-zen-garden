@@ -54,6 +54,31 @@ ul {
     background-color: #d83d3b;
 } */
 
+.top-bottom-links > li > a {
+    display: inline-block;
+    position: relative;
+    color: white;
+    text-decoration: none;
+}
+
+.top-bottom-links > li > a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #d83d3b;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.top-bottom-links>li>a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
 h1 {
     color: #E58C8A;
 }
