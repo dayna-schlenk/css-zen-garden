@@ -66,6 +66,14 @@ span {
     color: #d83d3b;
 }
 
+h1, .coffee-icon, .cookie-icon, h2 {
+    margin-bottom: 1rem;
+}
+
+.second-h2 {
+    margin-top: 1rem;
+}
+
 .text-block {
     padding: 4rem;
 }
