@@ -24,6 +24,10 @@ body {
         "footer footer";
 }
 
+.grid-container > * {
+    margin-bottom: 1rem;
+}
+
 nav {
     grid-area: nav;
 }
