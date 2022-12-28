@@ -62,6 +62,7 @@ ul {
     position: relative;
     color: white;
     text-decoration: none;
+    font-weight: 600;
 }
 
 .top-bottom-links > li > a::after {
@@ -77,7 +78,7 @@ ul {
     transition: transform 0.25s ease-out;
 }
 
-.top-bottom-links>li>a:hover::after {
+.top-bottom-links > li > a:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
 }
