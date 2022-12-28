@@ -78,6 +78,10 @@ h1, .coffee-icon, .cookie-icon, h2 {
     padding: 4rem;
 }
 
+.hyperlink {
+    color: #FFF07C;
+}
+
 .img1 {
     grid-area: img1;
     background: url('images/donut-1.jpg') center center;
