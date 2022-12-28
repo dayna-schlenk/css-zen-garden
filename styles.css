@@ -38,6 +38,11 @@ ul {
     align-items: center;
 }
 
+h1 {
+    /* color: #ff598f; */
+    color: #ff4460;
+}
+
 .text-block {
     padding: 4rem;
 }
