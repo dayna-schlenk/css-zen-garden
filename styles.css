@@ -79,6 +79,10 @@ h1, .coffee-icon, .cookie-icon, h2 {
 }
 
 .hyperlink {
+    color: #484A47;
+}
+
+.hyperlink:hover {
     color: #FFF07C;
 }
 
