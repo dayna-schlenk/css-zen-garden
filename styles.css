@@ -102,6 +102,10 @@ h1, .coffee-icon, .cookie-icon, h2 {
     color: white;
 }
 
+.not-first-paragraph {
+    margin-top: 1rem;
+}
+
 .img2 {
     grid-area: img2;
     background: url('images/donut-2.jpg') center center;
