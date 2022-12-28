@@ -108,6 +108,10 @@ h1, .coffee-icon, .cookie-icon, h2 {
     padding: 4rem;
 }
 
+p {
+    line-height: 1.75;
+}
+
 .hyperlink {
     color: #484A47;
 }
