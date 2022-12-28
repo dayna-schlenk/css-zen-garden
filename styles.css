@@ -43,7 +43,7 @@ ul {
     align-items: center;
 }
 
-.top-bottom-links > li > a {
+/* .top-bottom-links > li > a {
     text-decoration: none;
     color: white;
     padding: 0.5rem;
@@ -52,7 +52,7 @@ ul {
 
 .top-bottom-links >li > a:hover {
     background-color: #d83d3b;
-}
+} */
 
 h1 {
     color: #E58C8A;
