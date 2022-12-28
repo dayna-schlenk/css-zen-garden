@@ -23,6 +23,10 @@ nav {
     grid-area: nav;
 }
 
+nav > ul {
+    list-style-type: none;
+}
+
 .flex-nav {
     height: 100%;
     display: flex;
