@@ -41,7 +41,11 @@ ul {
 
 h1 {
     /* color: #ff598f; */
-    color: #ff4460;
+    color: #E58C8A;
+}
+
+span, .coffee-icon {
+    color: #d83d3b;
 }
 
 .text-block {
@@ -59,9 +63,9 @@ h1 {
     align-self: center;
 }
 
-.coffee-icon {
+/* .coffee-icon {
     color: rgb(137, 74, 238);
-}
+} */
 
 .cookie-icon {
     color: rgb(9, 163, 163);
