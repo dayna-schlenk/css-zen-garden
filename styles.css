@@ -157,6 +157,10 @@ footer {
     align-self: center;
 }
 
+footer > * {
+    margin-bottom: 2rem;
+}
+
 .flex-footer {
     display: flex;
     justify-content: space-evenly;
