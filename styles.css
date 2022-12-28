@@ -57,6 +57,10 @@ ul {
     color: rgb(137, 74, 238);
 }
 
+.cookie-icon {
+    color: rgb(9, 163, 163);
+}
+
 .img2 {
     grid-area: img2;
     background: url('images/donut-2.jpg') center center;
