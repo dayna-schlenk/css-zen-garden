@@ -53,6 +53,10 @@ ul {
     align-self: center;
 }
 
+.coffee-icon {
+    color: rgb(137, 74, 238);
+}
+
 .img2 {
     grid-area: img2;
     background: url('images/donut-2.jpg') center center;
