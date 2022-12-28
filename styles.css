@@ -165,3 +165,7 @@ footer > * {
     display: flex;
     justify-content: space-evenly;
 }
+
+.copyright {
+    margin-bottom: 0;
+}
