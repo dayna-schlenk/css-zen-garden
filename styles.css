@@ -116,6 +116,7 @@ p {
 
 .hyperlink {
     color: #484A47;
+    transition: color 0.5s;
 }
 
 .hyperlink:hover {
