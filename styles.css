@@ -191,6 +191,10 @@ p {
     align-self: center;
 }
 
+.design-list > li {
+    margin-bottom: 1rem;
+}
+
 footer {
     grid-area: footer;
     align-self: center;
