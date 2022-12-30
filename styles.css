@@ -46,17 +46,6 @@ ul {
     align-items: center;
 }
 
-/* .top-bottom-links > li > a {
-    text-decoration: none;
-    color: white;
-    padding: 0.5rem;
-    border-radius: 5px;
-}
-
-.top-bottom-links >li > a:hover {
-    background-color: #d83d3b;
-} */
-
 .top-bottom-links > li > a {
     display: inline-block;
     position: relative;
