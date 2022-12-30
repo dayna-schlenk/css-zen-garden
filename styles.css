@@ -209,6 +209,10 @@ footer > * {
     justify-content: space-evenly;
 }
 
+h3, .archives-resources-list > li {
+    margin-bottom: 0.5rem;
+}
+
 .copyright {
     margin-bottom: 0;
 }
