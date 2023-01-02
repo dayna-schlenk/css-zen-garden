@@ -271,4 +271,8 @@ h3, .archives-resources-list > li {
     .grid-container > * {
         margin-bottom: 0;
     }
+
+    .design-list, #design-top-link {
+        text-align: center;
+    }
 }
