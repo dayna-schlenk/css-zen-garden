@@ -323,3 +323,17 @@ h3, .archives-resources-list > li {
         grid-template-rows: 10rem repeat(2, 30rem) repeat(5, 40rem) 70rem 40rem 70rem 40rem 25rem 17rem;
     }
 }
+
+@media screen and (max-width: 300px) {
+    .grid-container {
+        grid-template-rows: 10rem repeat(2, 30rem) repeat(5, 50rem) 80rem 40rem 100rem 50rem 30rem 20rem;
+    }
+
+    h1 {
+        font-size: 1.75rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+}
