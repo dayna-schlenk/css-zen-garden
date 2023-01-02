@@ -311,3 +311,15 @@ h3, .archives-resources-list > li {
         grid-template-rows: 10rem repeat(2, 30rem) repeat(5, 40rem) 55rem 40rem 55rem 40rem 25rem 17rem;
     }
 }
+
+@media screen and (max-width: 425px) {
+    .grid-container {
+        grid-template-rows: 10rem repeat(2, 30rem) repeat(5, 40rem) 65rem 40rem 65rem 40rem 25rem 17rem;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .grid-container {
+        grid-template-rows: 10rem repeat(2, 30rem) repeat(5, 40rem) 70rem 40rem 70rem 40rem 25rem 17rem;
+    }
+}
