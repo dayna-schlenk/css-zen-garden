@@ -281,7 +281,6 @@ h3, .archives-resources-list > li {
     }
 }
 
-/* Responsive navbar */
 @media screen and (max-width: 650px) {
     .flex-nav {
         flex-direction: column;
@@ -306,5 +305,11 @@ h3, .archives-resources-list > li {
             "img6" /* 40rem */
             "design" /* 25rem */
             "footer"; /* 17rem */
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .grid-container {
+        grid-template-rows: 10rem repeat(2, 30rem) repeat(5, 40rem) 55rem 40rem 55rem 40rem 25rem 17rem;
     }
 }
