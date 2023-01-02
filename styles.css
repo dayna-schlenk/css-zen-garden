@@ -287,8 +287,6 @@ h3, .archives-resources-list > li {
     }
 
     .grid-container {
-        display: grid;
-        grid-template-columns: 1fr;
         grid-template-rows: 10rem repeat(2, 30rem) repeat(5, 40rem) 50rem 40rem 50rem 40rem 25rem 17rem;
         grid-template-areas:
             "nav" /* 10rem */
