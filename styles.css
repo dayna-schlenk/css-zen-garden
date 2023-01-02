@@ -245,3 +245,30 @@ h3, .archives-resources-list > li {
         font-size: 1.25rem;
     }
 }
+
+@media screen and (max-width: 800px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 5rem repeat(2, 30rem) repeat(9, 40rem) 25rem 17rem;
+        grid-template-areas:
+            "nav" /* 5rem */
+            "img1" /* 30rem  */
+            "intro" /* 30rem  */
+            "img2"
+            "enlightenment"
+            "img3"
+            "about"
+            "img4"
+            "participation"
+            "img5"
+            "reqs"
+            "img6"
+            "design" /* 25rem */
+            "footer"; /* 17rem */
+    }
+
+    .grid-container > * {
+        margin-bottom: 0;
+    }
+}
