@@ -72,6 +72,10 @@ ul {
     transform-origin: bottom left;
 }
 
+.hamburger {
+    display: none;
+}
+
 h1 {
     color: #d83d3b;
     font-size: 4rem;
