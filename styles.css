@@ -280,3 +280,31 @@ h3, .archives-resources-list > li {
         text-align: center;
     }
 }
+
+/* Responsive navbar */
+@media screen and (max-width: 650px) {
+    .flex-nav {
+        flex-direction: column;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 10rem repeat(2, 30rem) repeat(5, 40rem) 50rem 40rem 50rem 40rem 25rem 17rem;
+        grid-template-areas:
+            "nav" /* 10rem */
+            "img1" /* 30rem  */
+            "intro" /* 30rem  */
+            "img2" /* repeat(5, 40rem) */
+            "enlightenment"
+            "img3"
+            "about"
+            "img4"
+            "participation" /* 50rem */
+            "img5" /* 40rem */
+            "reqs" /* 50rem */
+            "img6" /* 40rem */
+            "design" /* 25rem */
+            "footer"; /* 17rem */
+    }
+}
