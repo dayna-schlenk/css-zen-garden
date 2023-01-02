@@ -216,3 +216,18 @@ h3, .archives-resources-list > li {
 .copyright {
     margin-bottom: 0;
 }
+
+/* Media Queries */
+@media screen and (max-width: 1420px) {
+    body {
+        font-size: 0.75rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}
