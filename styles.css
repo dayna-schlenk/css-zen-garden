@@ -310,6 +310,14 @@ h3, .archives-resources-list > li {
         align-items: center;
         text-align: center;
     }
+
+    #resources-h3 {
+        margin-top: 2rem;
+    }
+
+    .flex-footer > li {
+        margin-top: 1rem;
+    }
 }
 
 @media screen and (max-width: 470px) {
