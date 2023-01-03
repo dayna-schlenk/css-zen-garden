@@ -315,7 +315,7 @@ h3, .archives-resources-list > li {
         margin-top: 2rem;
     }
 
-    .flex-footer > li {
+    .flex-footer > li:not(:first-child) {
         margin-top: 1rem;
     }
 }
