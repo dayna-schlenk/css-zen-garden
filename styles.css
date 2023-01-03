@@ -287,7 +287,7 @@ h3, .archives-resources-list > li {
     }
 
     .grid-container {
-        grid-template-rows: 10rem repeat(2, 30rem) repeat(5, 40rem) 50rem 40rem 50rem 40rem 25rem 17rem;
+        grid-template-rows: 10rem repeat(2, 30rem) repeat(5, 40rem) 50rem 40rem 50rem 40rem 25rem 30rem;
         grid-template-areas:
             "nav" /* 10rem */
             "img1" /* 30rem  */
@@ -302,7 +302,13 @@ h3, .archives-resources-list > li {
             "reqs" /* 50rem */
             "img6" /* 40rem */
             "design" /* 25rem */
-            "footer"; /* 17rem */
+            "footer"; /* 30rem */
+    }
+
+    .flex-footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
 }
 
