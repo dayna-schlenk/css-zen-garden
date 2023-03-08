@@ -13,6 +13,6 @@ In this challenge, you style the provided HTML with pure CSS. You can style the 
 <br>
 
 ### CSS Features Used in My Zen Garden:
-:doughnut: Grid
-:doughnut: Flexbox
-:doughnut: Media Queries
+:doughnut: Grid <br>
+:doughnut: Flexbox <br>
+:doughnut: Media Queries <br>
