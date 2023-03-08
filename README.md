@@ -8,7 +8,7 @@ Challenge participants style the provided HTML with pure CSS, and they can apply
 
 <br>
 
-<img src="" width="50%">
+<img src="images/website-scroll.gif">
 
 <br>
 
