@@ -2,7 +2,7 @@
 
 This project is my take on the [CSS Zen Garden](http://csszengarden.com/) website challenge.
 
-In this challenge, you style the provided HTML with pure CSS. You can style the site however you choose. This is meant to show the variety of things CSS is capable of.
+Challenge participants style the provided HTML with pure CSS, and they can apply whatever styling they choose. This is meant to show the variety of things CSS is capable of.
 
 :link: Click [here](https://dayna-schlenk.github.io/css-zen-garden/) to view my website.
 
